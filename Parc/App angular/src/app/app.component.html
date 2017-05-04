@@ -1,0 +1,53 @@
+<h1>
+  <button (click)="Ver()">Mi servicio</button>
+</h1>
+<ng2-smart-table
+[settings]="settings"
+[source]="source"
+(editConfirm) = "Editar($event)">
+</ng2-smart-table>
+
+
+
+
+
+
+
+
+
+
+
+<!--<ul>
+  Personas:
+  <li *ngFor = "let item of personas; let i = index; let f = first; let l = last; let e = even; let o = odd">
+    {{item.nombre}},  {{item.edad}},  {{item.email}} {{i}} {{f}} {{l}} {{e}} {{o}}
+  </li>
+</ul>-->
+
+
+<!--img src="../assets/1.jpg"/>
+<img [src]="foto"/-->
+
+<form>
+
+    <input type = 'text' placeholder = 'Nombre' name = "nombre" [(ngModel)]="form.nombre">
+
+    <input type = 'email' name = "email" placeholder = 'Email' [(ngModel)]="form.email">
+    <label>{{form.nombre}}</label>
+    <input type = "submit" (click) = "Subir($event, form)">
+
+</form>
+
+
+
+
+
+<div [ngStyle]="{'color':color, 'font-size':size + 'px'}">
+  Style using
+</div>
+
+<input [(ngModel)]="color"/>
+<button (click)="size = size + 1">+</button>
+
+<!--button (click)="CrearEvento($event)">f</button-->
+

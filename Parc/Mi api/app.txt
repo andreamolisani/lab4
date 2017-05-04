@@ -1,0 +1,51 @@
+Base de datos: midb
+Todos get
+
+
+TRAER TODOS LOS USUARIOS
+http://www.appdg.esy.es/app.php/usuarios
+
+
+
+
+ALTA PARAM
+http://www.appdg.esy.es/app.php/agregarParam
+Parametros: nombre, email, password
+
+ALTA JSON
+http://www.appdg.esy.es/app.php/agregarJson/nombre/email/password
+
+
+
+
+
+LOGIN PARAM
+http://www.appdg.esy.es/app.php/loginParam
+Parametros: email y password
+
+LOGIN JSON
+http://www.appdg.esy.es/app.php/loginJson/email/password
+
+
+
+
+
+BAJA PARAM
+http://www.appdg.esy.es/app.php/eliminarParam
+Parametro: email
+
+
+BAJA JSON
+http://www.appdg.esy.es/app.php/eliminarJson/email
+
+
+
+MODIFICAR PARAM
+http://www.appdg.esy.es/app.php/modificarParam
+Parametros: nombre, email, password (a modificar)
+
+
+
+MODIFICAR JSON
+http://www.appdg.esy.es/app.php/modificarJson/nombre/email/password
+

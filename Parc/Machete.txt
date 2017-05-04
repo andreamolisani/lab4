@@ -1,0 +1,18 @@
+MACHETE
+https://restcountries.eu/rest/v2/all
+
+
+
+
+
+ng new --v2 clase3 
+ng serve --open
+ng g component nombre-componente
+ng g service ./services/datos
+
+npm install --save ng2-smart-table
+
+
+
+Movernos entre paginas/componentes
+Login
